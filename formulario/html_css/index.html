@@ -1,0 +1,39 @@
+<html> 
+    <head>
+        <title>Formulario de Criptomonedas</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Formulario de Criptomonedas</h1>
+            <form>
+                <div>
+                    <label for="criptomoneda">Criptomoneda</label>
+                    <select id="criptomoneda" name="criptomoneda">
+                        <option value="Bitcoin">Bitcoin</option>
+                        <option value="Ethereum">Ethereum</option>
+                        <option value="Litecoin">Litecoin</option>
+                        <option value="Cardano">Cardano</option>
+                        <option value="Ripple">Ripple</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="precio">Precio</label>
+                    <input type="number" id="precio" name="precio" step="0.00000001">
+                </div>
+                <div>
+                    <label for="cantidad">Cantidad</label>
+                    <input type="number" id="cantidad" name="cantidad" min="0">
+                </div>
+                <div>
+                    <label for="wallet">Direccion de Wallet</label>
+                    <input type="text" id="wallet" name="wallet">
+                </div>
+                <div>
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
+
