@@ -1,0 +1,25 @@
+body {
+    background-color: #f8f9fa; 
+}
+.centered-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.table-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
