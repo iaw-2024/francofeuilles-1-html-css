@@ -1,35 +1,57 @@
-.container div {
+body {
     display: flex;
+    justify-content: center;
     align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 80%; 
+    width: 100%; 
+    margin: 0 auto;
+}
+
+.container form {
+    padding: 20px; 
+    background-color: #fff; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1 {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+.container div {
     margin-bottom: 20px;
 }
 
 .container label {
-    width: 120px;
     font-size: 14px;
-    color: #EFF6E0;
-    margin-right: 10px;
+    color: #333; 
+    margin-bottom: 5px;
 }
 
 .container input,
 .container select {
-    flex-grow: 1;
+    width: calc(100% - 10px); 
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    box-sizing: border-box; 
 }
 
 .container input[type="submit"] {
+    width: calc(100% - 10px); 
+    margin: 0 auto; 
     background-color: rgb(0, 123, 255);
     border: none;
     color: rgb(255, 255, 255);
     padding: 10px 20px;
     border-radius: 20px;
     cursor: pointer;
-}
-
-.container label {
-    display: block;
-    width: auto;
-    margin-right: 10px;
 }
