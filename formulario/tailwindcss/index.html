@@ -8,13 +8,13 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gray-100 flex items-center justify-center h-screen">
-    <div class="form-container p-8 max-w-md w-full bg-white rounded-lg shadow-md">
-        <h1 class="text-center mb-4 text-lg font-semibold">COMPRAR CRIPTOMONEDAS</h1>
+<body class="bg-blue-500 flex items-center justify-center h-screen">
+    <div class="form-container p-8 max-w-md w-full md:max-w-lg bg-white rounded-lg shadow-md">
+        <h1 class="text-center mb-6 text-3xl font-semibold">COMPRAR CRIPTOMONEDAS</h1>
         <form>
             <div class="mb-4">
-                <label class="block text-gray-700 text-sm font-bold mb-2" for="criptomoneda">Criptomoneda</label>
-                <select class="form-select block w-full mt-1" id="criptomoneda" name="criptomoneda">
+                <label class="block text-gray-700 text-base font-bold mb-2" for="criptomoneda">Criptomoneda</label>
+                <select class="form-select block w-full mt-1 border border-gray-300 rounded-md py-2 px-3" id="criptomoneda" name="criptomoneda">
                     <option value="Bitcoin">Bitcoin</option>
                     <option value="Ethereum">Ethereum</option>
                     <option value="Ripple">Solana</option>
@@ -23,16 +23,16 @@
                 </select>
             </div>
             <div class="mb-4">
-                <label class="block text-gray-700 text-sm font-bold mb-2" for="precio">Precio</label>
-                <input type="number" class="form-input block w-full mt-1" id="precio" name="precio" step="0.00000001">
+                <label class="block text-gray-700 text-base font-bold mb-2" for="precio">Precio</label>
+                <input type="number" class="form-input block w-full mt-1 border border-gray-300 rounded-md py-2 px-3" id="precio" name="precio" step="0.00000001">
             </div>
             <div class="mb-4">
-                <label class="block text-gray-700 text-sm font-bold mb-2" for="cantidad">Cantidad</label>
-                <input type="number" class="form-input block w-full mt-1" id="cantidad" name="cantidad" min="0.0000001">
+                <label class="block text-gray-700 text-base font-bold mb-2" for="cantidad">Cantidad</label>
+                <input type="number" step="any" class="form-input block w-full mt-1 border border-gray-300 rounded-md py-2 px-3" id="cantidad" name="cantidad" min="0.0000001">
             </div>
             <div class="mb-4">
-                <label class="block text-gray-700 text-sm font-bold mb-2" for="wallet">Direccion de Wallet</label>
-                <input type="text" class="form-input block w-full mt-1" id="wallet" name="wallet">
+                <label class="block text-gray-700 text-base font-bold mb-2" for="wallet">Direccion de Wallet</label>
+                <input type="text" class="form-input block w-full mt-1 border border-gray-300 rounded-md py-2 px-3" id="wallet" name="wallet">
             </div>
             <button type="submit" class="btn bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full">Enviar</button>
         </form>
