@@ -57,3 +57,41 @@ body {
     border-radius: 5px;
     cursor: pointer;
 }
+
+.nav-bar {
+    background-color: #212529; 
+    width: 100%; 
+    position: fixed; 
+    top: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: inherit; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    width: 100%; 
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #212529;
+}
+
+.active {
+    background-color: #969696;
+}
+
