@@ -11,17 +11,15 @@
 <body>
     <nav class="bg-gray-800">
         <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-                <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-center"> <!-- Modificación aquí -->
-                    <div class="hidden sm:ml-6 sm:block">
-                        <div class="flex space-x-4">
-                            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                            <a href="../html_css/index.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">HTML-CSS</a>
-                            <a href="../bootstrap/index.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Bootstrap</a>
-                            <a href="index.html" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Tailwindcss</a>
-                        </div>
+            <div class="flex flex-1 items-center justify-center h-auto sm:items-stretch sm:justify-center">
+                <div class="hidden sm:ml-6 sm:block p-4">
+                    <div class="flex space-x-4">
+                        <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                        <a href="../html_css/index.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">HTML-CSS</a>
+                        <a href="../bootstrap/index.html" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">Bootstrap</a>
+                        <a href="index.html" class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium" aria-current="page">Tailwindcss</a>
                     </div>
                 </div>
-
             </div>
         </div>
 
@@ -34,11 +32,11 @@
             </div>
         </nav>
     </nav>
-    <div class="bg-blue-500">
+    <div class="bg-blue-500 p-2">
         <div class="min-h-screen flex items-center justify-center">
-            <div class="bg-white p-6 rounded-lg shadow-md">
+            <div class="bg-white p-6 rounded-lg shadow-md overflow-x-auto">
                 <h1 class="text-center mb-8 text-4xl font-bold">LISTADO DE COMPRAS</h1>
-                <table class="table-auto w-full">
+                <table class="table-auto w-full whitespace-no-wrap">
                     <thead>
                         <tr class="border">
                             <th class="px-5 py-3 border">Criptomoneda</th>
@@ -80,4 +78,3 @@
 </body>
 
 </html>
-
