@@ -1,22 +1,27 @@
-body {
+/* Eliminamos los márgenes predeterminados del body y html */
+body, html {
+    margin: 0;
+}
+
+.form-container {
     background-color: #3B82F6;
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh;
-    margin: 0;
 }
 
 .container {
     background-color: #ffffff;
-    max-width: 800px; 
-    width: 100%; 
-    margin: 0;
+    width: 90%;
+    max-width: 800px;
+    max-height: 530px;
+    flex-grow: 1; /* El contenedor crecerá para ocupar todo el espacio disponible */
+    margin: 60px 20px 20px; /* Añadido margen superior de 60px y se mantiene el margen derecho e inferior de 20px */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     border-radius: 10px; 
-    display: flex;
     flex-direction: column;
     padding: 25px; 
+    overflow: auto;
 }
 
 .container h1 {
@@ -94,4 +99,3 @@ li a:hover:not(.active) {
 .active {
     background-color: #969696;
 }
-
