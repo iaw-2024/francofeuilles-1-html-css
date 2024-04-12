@@ -32,97 +32,98 @@
             </div>
         </nav>
     </nav>
-    <div class="bg-blue-500 p-2 h-screen w-full">
-        <div class="min-h-auto flex justify-center">
-            <div class="bg-white p-6 rounded-lg shadow-md">
+    <div class="bg-blue-500 p-2 min-h-screen w-full">
+        <div class="flex justify-center">
+            <div class="bg-white p-6 rounded-lg shadow-md w-full sm:w-auto md:w-auto lg:w-3/4 xl:w-2/4">
                 <h1 class="text-center mb-8 text-4xl font-bold">LISTADO DE COMPRAS</h1>
-                <table class="table-auto w-full whitespace-no-wrap">
-                    <thead>
-                        <tr class="border">
-                            <th class="px-5 py-3 border">Criptomoneda</th>
-                            <th class="px-5 py-3 border">Precio</th>
-                            <th class="px-5 py-3 border">Cantidad</th>
-                            <th class="px-5 py-3 border">Direccion de Wallet</th>
-                        </tr>
-                    </thead>
+                <div class="overflow-x-scroll">
+                    <table class="table-auto w-full whitespace-no-wrap">
+                        <thead>
+                            <tr class="border">
+                                <th class="px-5 py-3 border">Criptomoneda</th>
+                                <th class="px-5 py-3 border">Precio</th>
+                                <th class="px-5 py-3 border">Cantidad</th>
+                                <th class="px-5 py-3 border">Direccion de Wallet</th>
+                            </tr>
+                        </thead>
                     <tbody>
                         <tr>
-                            <td class="px-5 py-3 border">Bitcoin</td>
-                            <td class="px-5 py-3 border">$70,000</td>
-                            <td class="px-5 py-3 border">0.5</td>
-                            <td class="px-5 py-3 border">1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa</td>
+                            <td class="px-5 py-3 border text-center">Bitcoin</td>
+                            <td class="px-5 py-3 border text-center">$70,000</td>
+                            <td class="px-5 py-3 border text-center">0.5</td>
+                            <td class="px-5 py-3 border text-center">1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa</td>
                         </tr>
                         <tr>
-                            <td class="px-5 py-3 border">Ethereum</td>
-                            <td class="px-5 py-3 border">$3,500</td>
-                            <td class="px-5 py-3 border">2</td>
-                            <td class="px-5 py-3 border">0x742d35Cc6634C0532925a3b844Bc454e4438f44e</td>
+                            <td class="px-5 py-3 border text-center">Ethereum</td>
+                            <td class="px-5 py-3 border text-center">$3,500</td>
+                            <td class="px-5 py-3 border text-center">2</td>
+                            <td class="px-5 py-3 border text-center">0x742d35Cc6634C0532925a3b844Bc454e4438f44e</td>
                         </tr>
                         <tr>
-                            <td class="px-5 py-3 border">BNB</td>
-                            <td class="px-5 py-3 border">$500</td>
-                            <td class="px-5 py-3 border">2.5</td>
-                            <td class="px-5 py-3 border">0x3f5CE5FBFe3E9af3971dD833D26bA9b5C936f0bE</td>
+                            <td class="px-5 py-3 border text-center">BNB</td>
+                            <td class="px-5 py-3 border text-center">$500</td>
+                            <td class="px-5 py-3 border text-center">2.5</td>
+                            <td class="px-5 py-3 border text-center">0x3f5CE5FBFe3E9af3971dD833D26bA9b5C936f0bE</td>
                         </tr>
                         <tr>
-                            <td class="px-5 py-3 border">Ethereum</td>
-                            <td class="px-5 py-3 border">$3,200</td>
-                            <td class="px-5 py-3 border">5</td>
-                            <td class="px-5 py-3 border">0x742d35Cc6634C0532925a3b844Bc454e4438f44e</td>
+                            <td class="px-5 py-3 border text-center">Ethereum</td>
+                            <td class="px-5 py-3 border text-center">$3,200</td>
+                            <td class="px-5 py-3 border text-center">5</td>
+                            <td class="px-5 py-3 border text-center">0x742d35Cc6634C0532925a3b844Bc454e4438f44e</td>
                         </tr>
                         <tr>
-                            <td class="px-5 py-3 border">Litecoin</td>
-                            <td class="px-5 py-3 border">$150</td>
-                            <td class="px-5 py-3 border">3</td>
-                            <td class="px-5 py-3 border">LdP5BJgvxJvoYhALys3aW7HtEvU8ZC8w9G</td>
+                            <td class="px-5 py-3 border text-center">Litecoin</td>
+                            <td class="px-5 py-3 border text-center">$150</td>
+                            <td class="px-5 py-3 border text-center">3</td>
+                            <td class="px-5 py-3 border text-center">LdP5BJgvxJvoYhALys3aW7HtEvU8ZC8w9G</td>
                         </tr>
                         <tr>
-                            <td class="px-5 py-3 border">Ripple</td>
-                            <td class="px-5 py-3 border">$1.50</td>
-                            <td class="px-5 py-3 border">100</td>
-                            <td class="px-5 py-3 border">rLdinLq5CJood9wdjY9ZCdgycK8KGevkUj</td>
+                            <td class="px-5 py-3 border text-center">Ripple</td>
+                            <td class="px-5 py-3 border text-center">$1.50</td>
+                            <td class="px-5 py-3 border text-center">100</td>
+                            <td class="px-5 py-3 border text-center">rLdinLq5CJood9wdjY9ZCdgycK8KGevkUj</td>
                         </tr>
                         <tr>
-                            <td class="px-5 py-3 border">Solana</td>
-                            <td class="px-5 py-3 border">$100</td>
-                            <td class="px-5 py-3 border">10</td>
-                            <td class="px-5 py-3 border">8YQ5W5VzQYMoxgKvJh1uS6KdQc7enfSYC</td>
+                            <td class="px-5 py-3 border text-center">Solana</td>
+                            <td class="px-5 py-3 border text-center">$100</td>
+                            <td class="px-5 py-3 border text-center">10</td>
+                            <td class="px-5 py-3 border text-center">8YQ5W5VzQYMoxgKvJh1uS6KdQc7enfSYC</td>
                         </tr>
                         <tr>
-                            <td class="px-5 py-3 border">Polkadot</td>
-                            <td class="px-5 py-3 border">$5.00</td>
-                            <td class="px-5 py-3 border">20</td>
-                            <td class="px-5 py-3 border">15qT4RJTjs7NbqGsonZWxjqefD22hQX2zT</td>
+                            <td class="px-5 py-3 border text-center">Polkadot</td>
+                            <td class="px-5 py-3 border text-center">$5.00</td>
+                            <td class="px-5 py-3 border text-center">20</td>
+                            <td class="px-5 py-3 border text-center">15qT4RJTjs7NbqGsonZWxjqefD22hQX2zT</td>
                         </tr>
                         <tr>
-                            <td class="px-5 py-3 border">Dogecoin</td>
-                            <td class="px-5 py-3 border">$0.10</td>
-                            <td class="px-5 py-3 border">1000</td>
-                            <td class="px-5 py-3 border">DH5yaieqoZN36fDVciNyRueRGvGLR3mr7L</td>
+                            <td class="px-5 py-3 border text-center">Dogecoin</td>
+                            <td class="px-5 py-3 border text-center">$0.10</td>
+                            <td class="px-5 py-3 border text-center">1000</td>
+                            <td class="px-5 py-3 border text-center">DH5yaieqoZN36fDVciNyRueRGvGLR3mr7L</td>
                         </tr>
                         <tr>
-                            <td class="px-5 py-3 border">Tether</td>
-                            <td class="px-5 py-3 border">$1.00</td>
-                            <td class="px-5 py-3 border">5000</td>
-                            <td class="px-5 py-3 border">1NTMakcgVwQpMdGxRQnFKyb3G1FAJysSfz</td>
+                            <td class="px-5 py-3 border text-center">Tether</td>
+                            <td class="px-5 py-3 border text-center">$1.00</td>
+                            <td class="px-5 py-3 border text-center">5000</td>
+                            <td class="px-5 py-3 border text-center">1NTMakcgVwQpMdGxRQnFKyb3G1FAJysSfz</td>
                         </tr>
                         <tr>
-                            <td class="px-5 py-3 border">USD Coin</td>
-                            <td class="px-5 py-3 border">$1.00</td>
-                            <td class="px-5 py-3 border">5000</td>
-                            <td class="px-5 py-3 border">0xAf4Dce16DA2877f8c9e00544c93B62Ac40631F16</td>
+                            <td class="px-5 py-3 border text-center">USD Coin</td>
+                            <td class="px-5 py-3 border text-center">$1.00</td>
+                            <td class="px-5 py-3 border text-center">5000</td>
+                            <td class="px-5 py-3 border text-center">0xAf4Dce16DA2877f8c9e00544c93B62Ac40631F16</td>
                         </tr>
                         <tr>
-                            <td class="px-5 py-3 border">XRP</td>
-                            <td class="px-5 py-3 border">$0.10</td>
-                            <td class="px-5 py-3 border">1000</td>
-                            <td class="px-5 py-3 border">rEb8TK3gBgk5auZkwc6sHnwrGVJH8DuaLh</td>
+                            <td class="px-5 py-3 border text-center">XRP</td>
+                            <td class="px-5 py-3 border text-center">$0.10</td>
+                            <td class="px-5 py-3 border text-center">1000</td>
+                            <td class="px-5 py-3 border text-center">rEb8TK3gBgk5auZkwc6sHnwrGVJH8DuaLh</td>
                         </tr>
                         <tr>
-                            <td class="px-5 py-3 border">TRON</td>
-                            <td class="px-5 py-3 border">$0.10</td>
-                            <td class="px-5 py-3 border">1000</td>
-                            <td class="px-5 py-3 border">TKHUfyvY8PENuVzU8VHm3kAMoZKvCNfn4G</td>
+                            <td class="px-5 py-3 border text-center">TRON</td>
+                            <td class="px-5 py-3 border text-center">$0.10</td>
+                            <td class="px-5 py-3 border text-center">1000</td>
+                            <td class="px-5 py-3 border text-center">TKHUfyvY8PENuVzU8VHm3kAMoZKvCNfn4G</td>
                         </tr>
                     </tbody>
                 </table>

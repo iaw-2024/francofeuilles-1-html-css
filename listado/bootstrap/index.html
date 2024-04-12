@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,12 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -29,98 +32,106 @@
         </div>
     </nav>
     <div class="centered-table">
-        <div class="table-container table-striped table-responsive">
-            <h1>LISTADO DE COMPRAS</h1>
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>Criptomoneda</th>
-                            <th>Precio (USD)</th>
-                            <th>Cantidad</th>
-                            <th>Dirección de Wallet</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Bitcoin</td>
-                            <td>$70,000</td>
-                            <td>0.5</td>
-                            <td>1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa</td>
-                        </tr>
-                        <tr>
-                            <td>Ethereum</td>
-                            <td>$3,500</td>
-                            <td>2</td>
-                            <td>0x742d35Cc6634C0532925a3b844Bc454e4438f44e</td>
-                        </tr>
-                        <tr>
-                            <td>BNB</td>
-                            <td>$500</td>
-                            <td>2.5</td>
-                            <td>0x3f5CE5FBFe3E9af3971dD833D26bA9b5C936f0bE</td>
-                        </tr>
-                        <tr>
-                            <td>Ethereum</td>
-                            <td>$3,200</td>
-                            <td>5</td>
-                            <td>0x742d35Cc6634C0532925a3b844Bc454e4438f44e</td>
-                        </tr>
-                        <tr>
-                            <td>Litecoin</td>
-                            <td>$150</td>
-                            <td>3</td>
-                            <td>LdP5BJgvxJvoYhALys3aW7HtEvU8ZC8w9G</td>
-                        </tr>
-                        <tr>
-                            <td>Ripple</td>
-                            <td>$1.50</td>
-                            <td>100</td>
-                            <td>rLdinLq5CJood9wdjY9ZCdgycK8KGevkUj</td>
-                        </tr>
-                        <tr>
-                            <td>Solana</td>
-                            <td>$100</td>
-                            <td>10</td>
-                            <td>8YQ5W5VzQYMoxgKvJh1uS6KdQc7enfSYC</td>
-                        </tr>
-                        <tr>
-                            <td>Polkadot</td>
-                            <td>$5.00</td>
-                            <td>20</td>
-                            <td>15qT4RJTjs7NbqGsonZWxjqefD22hQX2zT</td>
-                        </tr>
-                        <tr>
-                            <td>Dogecoin</td>
-                            <td>$0.10</td>
-                            <td>1000</td>
-                            <td>DH5yaieqoZN36fDVciNyRueRGvGLR3mr7L</td>
-                        </tr>
-                        <tr>
-                            <td>Tether</td>
-                            <td>$1.00</td>
-                            <td>5000</td>
-                            <td>1NTMakcgVwQpMdGxRQnFKyb3G1FAJysSfz</td>
-                        </tr>
-                        <tr>
-                            <td>USD Coin</td>
-                            <td>$1.00</td>
-                            <td>5000</td>
-                            <td>0xAf4Dce16DA2877f8c9e00544c93B62Ac40631F16</td>
-                        </tr>
-                        <tr>
-                            <td>XRP</td>
-                            <td>$0.10</td>
-                            <td>1000</td>
-                            <td>rEb8TK3gBgk5auZkwc6sHnwrGVJH8DuaLh</td>
-                        </tr>
-                        <tr>
-                            <td>TRON</td>
-                            <td>$0.10</td>
-                            <td>1000</td>
-                            <td>TKHUfyvY8PENuVzU8VHm3kAMoZKvCNfn4G</td>
-                        </tr>
-                    </tbody>
-            </table>  
+        <div class="container"> 
+            <div class="row d-flex flex-columns">
+                <div class="col"></div>
+                <div class="col">
+                    <div class="table-container table-striped table-responsive">
+                        <h1>LISTADO DE COMPRAS</h1>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th class="text-center">Criptomoneda</th>
+                                    <th class="text-center">Precio (USD)</th>
+                                    <th class="text-center">Cantidad</th>
+                                    <th class="text-center">Dirección de Wallet</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="text-center">Bitcoin</td>
+                                    <td class="text-center">$70,000</td>
+                                    <td class="text-center">0.5</td>
+                                    <td class="text-center">1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">Ethereum</td>
+                                    <td class="text-center">$3,500</td>
+                                    <td class="text-center">2</td>
+                                    <td class="text-center">0x742d35Cc6634C0532925a3b844Bc454e4438f44e</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">BNB</td>
+                                    <td class="text-center">$500</td>
+                                    <td class="text-center">2.5</td>
+                                    <td class="text-center">0x3f5CE5FBFe3E9af3971dD833D26bA9b5C936f0bE</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">Ethereum</td>
+                                    <td class="text-center">$3,200</td>
+                                    <td class="text-center">5</td>
+                                    <td class="text-center">0x742d35Cc6634C0532925a3b844Bc454e4438f44e</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">Litecoin</td>
+                                    <td class="text-center">$150</td>
+                                    <td class="text-center">3</td>
+                                    <td class="text-center">LdP5BJgvxJvoYhALys3aW7HtEvU8ZC8w9G</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">Ripple</td>
+                                    <td class="text-center">$1.50</td>
+                                    <td class="text-center">100</td>
+                                    <td class="text-center">rLdinLq5CJood9wdjY9ZCdgycK8KGevkUj</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">Solana</td>
+                                    <td class="text-center">$100</td>
+                                    <td class="text-center">10</td>
+                                    <td class="text-center">8YQ5W5VzQYMoxgKvJh1uS6KdQc7enfSYC</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">Polkadot</td>
+                                    <td class="text-center">$5.00</td>
+                                    <td class="text-center">20</td>
+                                    <td class="text-center">15qT4RJTjs7NbqGsonZWxjqefD22hQX2zT</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">Dogecoin</td>
+                                    <td class="text-center">$0.10</td>
+                                    <td class="text-center">1000</td>
+                                    <td class="text-center">DH5yaieqoZN36fDVciNyRueRGvGLR3mr7L</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">Tether</td>
+                                    <td class="text-center">$1.00</td>
+                                    <td class="text-center">5000</td>
+                                    <td class="text-center">1NTMakcgVwQpMdGxRQnFKyb3G1FAJysSfz</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">USD Coin</td>
+                                    <td class="text-center">$1.00</td>
+                                    <td class="text-center">5000</td>
+                                    <td class="text-center">0xAf4Dce16DA2877f8c9e00544c93B62Ac40631F16</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">XRP</td>
+                                    <td class="text-center">$0.10</td>
+                                    <td class="text-center">1000</td>
+                                    <td class="text-center">rEb8TK3gBgk5auZkwc6sHnwrGVJH8DuaLh</td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">TRON</td>
+                                    <td class="text-center">$0.10</td>
+                                    <td class="text-center">1000</td>
+                                    <td class="text-center">TKHUfyvY8PENuVzU8VHm3kAMoZKvCNfn4G</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col"></div>
+            </div>
         </div>
     </div>
 
@@ -128,4 +139,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
