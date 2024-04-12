@@ -17,7 +17,13 @@ body {
     border-radius: 10px;
     box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
     overflow-x: auto; 
-    margin: 10px;
+    margin: 110px auto 10px;
+    max-width: calc(100% - 20px); /* Para evitar que el contenedor sea más ancho que el viewport */
+}
+
+table {
+    width: max-content; /* Para que la tabla tenga el ancho de su contenido */
+    min-width: 100%; /* Para asegurar que la tabla ocupe todo el ancho del contenedor */
 }
 
 h1 {
