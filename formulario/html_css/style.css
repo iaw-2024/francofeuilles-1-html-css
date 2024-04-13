@@ -104,17 +104,17 @@ li a:hover:not(.active) {
 @media (max-width: 768px) {
     .form-container {
         justify-content: flex-start;
-        padding-top: 20px; /* Espacio adicional en la parte superior */
+        padding-top: 20px;
     }
 
-    .container h1 { /* Corrección: quitar el punto delante de h1 */
+    .container h1 {
         font-size: 32px;
     }
     
     .container {
         width: 95%;
-        padding: 15px; /* Ajuste del padding */
-        max-width: none; /* Quitamos la limitación de ancho máximo */
+        padding: 15px;
+        max-width: none; 
     }
     
     .container div {
@@ -122,12 +122,12 @@ li a:hover:not(.active) {
     }
 
     .container label {
-        font-size: 20px; /* Aumentamos el tamaño del texto */
+        font-size: 20px; 
     }
 
     .container input,
     .container select {
-        font-size: 20px; /* Aumentamos el tamaño del texto */
+        font-size: 20px; 
     }
 
     .container input[type="submit"] {
