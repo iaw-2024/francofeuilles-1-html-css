@@ -1,0 +1,89 @@
+body {
+    background-color: #3B82F6; 
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.centered-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: auto;
+}
+
+.table-container {
+    background-color: #F2F4F3;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.1);
+    overflow-x: auto; 
+    margin-top: 60px;
+    max-width: 100vh;
+}
+
+h1 {
+    color: #0B0A07;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border: 1px solid #dee2e6;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table th {
+    background-color: #f8f9fa; 
+    font-weight: bold;
+}
+
+.nav-bar {
+    background-color: #212529; 
+    width: 100%; 
+    position: fixed; 
+    top: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: inherit; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    width: 100%; 
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #212529;
+}
+
+.active {
+    background-color: #969696;
+}

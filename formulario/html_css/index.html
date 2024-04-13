@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Criptomonedas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <ul>
+            <li><a class="active" href="index.html">HTML-CSS</a></li>
+            <li><a href="../bootstrap/index.html">BOOTSTRAP</a></li>
+            <li><a href="../tailwindcss/index.html">TAILWINDCSS</a></li>
+        </ul>
+    </div>
+    <div class="form-container">
+        <div class="container">
+            <h1>COMPRAR CRIPTOMONEDAS</h1>
+            <form>
+                <div>
+                    <label for="criptomoneda">Criptomoneda</label>
+                    <select id="criptomoneda" name="criptomoneda">
+                        <option value="Bitcoin">Bitcoin</option>
+                        <option value="Ethereum">Ethereum</option>
+                        <option value="Ripple">Solana</option>
+                        <option value="Litecoin">BNB</option>
+                        <option value="Cardano">Cardano</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="precio">Precio</label>
+                    <input type="number" id="precio" name="precio" step="0.00000001">
+                </div>
+                <div>
+                    <label for="cantidad">Cantidad</label>
+                    <input type="number" step="any" id="cantidad" name="cantidad" min="0">
+                </div>
+                <div>
+                    <label for="wallet">Dirección de la cartera</label>
+                    <input type="text" id="wallet" name="wallet">
+                </div>
+                <div>
+                    <input type="submit" value="Comprar">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
